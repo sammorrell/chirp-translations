@@ -1,0 +1,18 @@
+{
+    "sidebar" : {
+        "home-menu-item" : "Huis",
+        "latest-alert-menu-item" : "Laatste waarschuwing",
+        "all-alerts-menu-item" : "Alle waarschuwingen",
+        "contact-menu-item" : "Contact",
+        "settings-menu-item" : "Instellingen",
+        "about-menu-item" : "Over"
+    },
+    "obsstatus" : {
+        "network-status-title" : "Netwerk Status",
+        "last-updated" : "Laatst Bijgewerkt",
+        "last-updated-loading" : "Laden..."
+    },
+    "home" : {
+        "home-title" : "Luisteren naar de Kosmos "
+    }
+}

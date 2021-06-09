@@ -1,3 +1,18 @@
 {
-    
+    "sidebar" : {
+        "home-menu-item" : "Home",
+        "latest-alert-menu-item" : "Latest Alert",
+        "all-alerts-menu-item" : "All Alerts",
+        "contact-menu-item" : "Contact",
+        "settings-menu-item" : "Settings",
+        "about-menu-item" : "About"
+    },
+    "obsstatus" : {
+        "network-status-title" : "Network Status",
+        "last-updated" : "Last Updated",
+        "last-updated-loading" : "Loading..."
+    },
+    "home" : {
+        "home-title" : "Listening to the Cosmos"
+    }
 }
