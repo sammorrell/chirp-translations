@@ -5,6 +5,15 @@
         "virgo" : "Virgo",
         "kagra" : "KAGRA"
     },
+    "alert-type" : {
+        "retracted" : "Retracted Alert",
+        "bns" : "Binary Neutron Star System",
+        "bbh" : "Binary Black Hole Merger",
+        "nsbh" : "Neutron Star - Black Hole Collision",
+        "noise" : "Terrestrial Noise",
+        "massgap" : "Source between 3 & 5 Solar masses",
+        "burst" : "Burst Candidate"
+    },
     "sidebar" : {
         "home-menu-item" : "Home",
         "latest-alert-menu-item" : "Latest Alert",
