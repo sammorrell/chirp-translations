@@ -1,4 +1,10 @@
 {
+    "detectors" : {
+        "ligo-hanford" : "LIGO Hanford",
+        "ligo-livingston" : "LIGO Livingston",
+        "virgo" : "Virgo",
+        "kagra" : "KAGRA"
+    },
     "sidebar" : {
         "home-menu-item" : "Home",
         "latest-alert-menu-item" : "Latest Alert",
@@ -10,7 +16,14 @@
     "obsstatus" : {
         "network-status-title" : "Network Status",
         "last-updated" : "Last Updated",
-        "last-updated-loading" : "Loading..."
+        "last-updated-loading" : "Loading...",
+        "help-modal" : {
+            "description" : "This section displays the current status of the global gravitational wave observatory network. The status of each detector is indicated by the colour and icon shown to the right of it. A guide to these is shown below. The length of time in which the detector has been in this state is shown in hours and minutes (in hh:mm format).",
+            "online-science" : "Online / Science",
+            "maintenance" : "Maintenance",
+            "offline" : "Offline",
+            "unknown-status" : "Unknown Status"
+        }
     },
     "home" : {
         "page-title" : "Listening to the Cosmos",
