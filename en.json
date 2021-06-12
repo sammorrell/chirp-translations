@@ -41,5 +41,12 @@
         "latest-alert-button" : "Latest Alert",
         "all-alerts-button" : "All Alerts",
         "background-image-credit" : "Image credit: Aurore Simonnet, EPO Sonoma State University"
+    },
+    "alert-list" : {
+        "header" : "Alerts",
+        "graceid-column-heading" : "GraceDB ID",
+        "type-column-heading" : "Likely Type",
+        "date-column-heading" : "Date (UTC)",
+        "key-heading" : "Key"
     }
 }
