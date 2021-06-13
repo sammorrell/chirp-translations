@@ -48,5 +48,35 @@
         "type-column-heading" : "Likely Type",
         "date-column-heading" : "Date (UTC)",
         "key-heading" : "Key"
+    },
+    "about" : {
+        "header" : "About",
+        "about-us" : {
+            "heading" : "About Us",
+            "paragraph1" : "This app is developed by astrophysics students at the Institute for Gravitational Wave Astronomy - University of Birmingham and the Astrophysics Group - University of Exeter who have a passion for public engagement and outreach. Between us, our research interests span everything from observational astronomy to galaxy evolution, cosmology and instrumentation. Our aim is to share our enthusiasm for our research and make it accessible to everyone. ",
+            "paragraph2" : "We have designed this app to listen to the NASA Gamma Ray Coordinates Network (GCN). This is a network of servers which allow astronomers to communicate events at short notice, enabling collaboration and open science.",
+            "paragraph3" : "The app catches the initial alert, running from the same data as the astronomy community and displays it in a friendly format. This means we have the very latest data but does mean that there may be some false positives. Check to see if the alert is retracted and check the false alarm rate to see how credible a detection is. ",
+            "published-by" : "Chirp is published by ",
+            "image-credit" : "Credit: Caltech / MIT / LIGO Laboratory. "
+        },
+        "ligo" : {
+            "heading" : "LIGO",
+            "paragraph1" : "The LIGO Scientific Collaboration (LSC) is an international community of scientists working to build earth based Gravitational Wave detectors and use them to learn about the universe. Between us, we represent over 40 years of cutting edge research. LSC scientists build and operatea number of detectors and prototypes, most notably the two LIGO lab detectors.",
+            "paragraph2" : "Each of the LIGO detectors is formed from two 4 km long arms at right angles to each other. Both of these detectors are situated in USA, one in Hanford, Washington State (pictured top), and the other in Livingston, Louisiana State (right). These detectors are capable of measuring signals from black holes and neutron stars that warp space and time by less than a thousandth the width of a proton.",
+            "paragraph3" : "Both LIGO detectors are responsible for detecting the first direct observation of a gravitational wave, caused by a pair of black holes around a billion light years away in September 2015, concluding a 100-year test of Einstein's theory of General Relativity. ",
+            "image-credit" : "Credit: Caltech / MIT / LIGO Laboratory. "
+        },
+        "virgo" : {
+            "heading" : "Virgo",
+            "paragraph1" : "Virgo is a European gravitational wave detector that joined the hunt for new gravitational wave signals shortly after LIGO. The detector is slightly smaller than LIGO at 3 km long and is situated southwest of Pisa, Italy.",
+            "paragraph2" : "By operating three detectors, spaced around the globe, scientists were able to locate the first detection of abinary neutron star collision ever in August 2017. Due to the accurate location, scientists could observe the collision with telescopes spawning international interest and new discoveries about our universe, including the origin of heavy elements such as gold.",
+            "image-credit" : "Credit: The Virgo Collaboration. "
+        },
+        "kagra" : {
+            "heading" : "KAGRA",
+            "paragraph1" : "KAGRA is a 3 km long gravitational wave detector located inside Mt. Ikenoyama, Kamioka, Gifu in Japan. Unlike both LIGO detectors it features cryogenically cooled sapphire mirrors to improve low frequency (below 100 Hz) sensitivity. Its first observing run is expected to be in late 2019, where it will join LIGO and Virgo hunting for gravitational waves. ",
+            "image-credit" : "Credit: Christopher Berry. "
+
+        }
     }
 }
