@@ -79,6 +79,28 @@
 
         }
     },
+    "contact" : {
+        "page-heading" : "Contact",
+        "contact-ligo" : {
+            "heading" : "Contact the LIGO - Virgo Collaboration (LVC)", 
+            "text" : "For questions regarding gravitational waves and the sites contact LIGO at one of the links below. ",
+            "email-ligo-button" : "Email LIGO",
+            "contact-ligo-button" : "Contact LIGO",
+            "contact-virgo-button" : "Contact Virgo",
+            "contact-kagra-button" : "Contact KAGRA",
+            "image-credit" : "Credit: Caltech/MIT/LIGO Laboratory. "
+        },
+        "contact-university" : {
+            "heading" : "Contact the Institute", 
+            "text" : "For enquires about the gravitational wave group at the University of Birmingham please contact the group. ",
+            "contact-university-button" : "Contact the Institute",
+            "image-credit" : "Credit: University of Birmingham."
+        },
+        "contact-developers" : {
+            "heading" : "Contact the Developers",
+            "text" : "Got a question about the app? Found a bug? Contact one of the developers. "
+        }
+    },
     "alert-detail" : {
         "not-applicable" : "N/A",
         "most-likely-origin" : "Most Likely Origin",
@@ -127,7 +149,7 @@
             "t_received" : "The time and date at which alert was received.",
             "t_updated" : "The time and date at which the alert was last updated.",
             "eventtype" : "The classification of the event. This is either 'CBC (Compact Binary Coalescence)' e.g binary black hole collisions, or 'burst' e.g. supernova explosions  ",
-            "instruments" : "The interferometers that detected the event, either LIGO Hanford, LIGO Livingston, Virgo, Kagra.",
+            "instruments" : "The interferometers that detected the event, either LIGO Hanford, LIGO Livingston, Virgo, KAGRA.",
             "eventCirculars" : "A link to the list of notices released about the event. Opens an external site.",
             "hasremnant" : "The percentage likelihood, given that the event was astrophysical and at least one object was a neutron star, that some neutron star matter was ejected from the system.",
             "duration" : "The duration of the burst in seconds. If this event was not caused by a burst, the duration will read N/A.",
