@@ -53,7 +53,7 @@
         "header" : "About",
         "about-us" : {
             "heading" : "About Us",
-            "paragraph1" : "This app is developed by astrophysics students at the Institute for Gravitational Wave Astronomy - University of Birmingham and the Astrophysics Group - University of Exeter who have a passion for public engagement and outreach. Between us, our research interests span everything from observational astronomy to galaxy evolution, cosmology and instrumentation. Our aim is to share our enthusiasm for our research and make it accessible to everyone. ",
+            "paragraph1" : "This app is developed by astrophysics researchers at the Institute for Gravitational Wave Astronomy - University of Birmingham, the Astrophysics Group - University of Exeter and the University of Western Australia who have a passion for public engagement and outreach. Between us, our research interests span everything from observational astronomy to galaxy evolution, cosmology and instrumentation. Our aim is to share our enthusiasm for our research and make it accessible to everyone. ",
             "paragraph2" : "We have designed this app to listen to the NASA Gamma Ray Coordinates Network (GCN). This is a network of servers which allow astronomers to communicate events at short notice, enabling collaboration and open science.",
             "paragraph3" : "The app catches the initial alert, running from the same data as the astronomy community and displays it in a friendly format. This means we have the very latest data but does mean that there may be some false positives. Check to see if the alert is retracted and check the false alarm rate to see how credible a detection is. ",
             "published-by" : "Chirp is published by ",
