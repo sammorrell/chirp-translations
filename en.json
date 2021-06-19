@@ -153,7 +153,7 @@
             "eventCirculars" : "A link to the list of notices released about the event. Opens an external site.",
             "hasremnant" : "The percentage likelihood, given that the event was astrophysical and at least one object was a neutron star, that some neutron star matter was ejected from the system.",
             "duration" : "The duration of the burst in seconds. If this event was not caused by a burst, the duration will read N/A.",
-            "distmean" : "The mean distance of the event from earth, measured in Megaparsecs. 1 Megaparsec = 3.262 million light years = 32.6 billion billion billion km.",
+            "distmean" : "The mean distance of the event from earth, measured in Megaparsecs. 1 Megaparsec = 3.262 million light years = 30.9 billion billion km.",
             "fluence" : "The gravitational wave fluence, measured in erg cm<sup>-2</sup>.",
             "FAR" : "The amount of time expected for there to be an event like this that is not of astrophysical origin. The false alarm rate (FAR) indicates the significance of the event. The more time between false events the more likely that this event is genuine.",
             "massgap": "The percent likelihood that at least one of the objects had a mass between 3 and 5 solar masses",
