@@ -36,7 +36,7 @@
     },
     "home" : {
         "page-title" : "Listening to the Cosmos",
-        "paragraph1" : "Gravitational waves are ripples in space-time. The two LIGO detectors, Hanford and Livingston and the Virgo detector in Italy and the newly comissioned KAGRA detector in Japan have a proven track record of successful observations and are now issuing public alerts of possible gravitational waves events via the Gamma Ray Coordinates (GCN) system.",
+        "paragraph1" : "Gravitational waves are ripples in space-time. The two LIGO detectors, Hanford and Livingston, the Virgo detector in Italy, and the newly commissioned KAGRA detector in Japan have a proven track record of successful observations and are now issuing public alerts of possible gravitational waves events via the Gamma Ray Coordinates (GCN) system.",
         "paragraph2" : "This app listens to the GCN system and displays the information in a friendly format, with links to LIGO-Virgo-KAGRA Gravitational Wave Candidate Event Database (GraceDB) pages for more detailed information. For more information about this app check out our about page.",
         "latest-alert-button" : "Latest Alert",
         "all-alerts-button" : "All Alerts",
