@@ -10,7 +10,7 @@ These files represent an ongoing effort to improve the accessibility of the app 
 - **German** (de)
 - **Spanish** (es)
 - **French** (fr)
-- **Japanese** (ja)
+- **Japanese** (ja-JP)
 - **Italian** (it)
 - **Hindi** (hi)
 - **Dutch** (nl)
