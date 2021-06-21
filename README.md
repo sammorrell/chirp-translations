@@ -24,3 +24,5 @@ Do you know one of the languages we want to support? Would you like to add a dif
 The development team, and the worldwide community of Chirp users, would be very grateful for any translations you would like to contribute to the app. Our community-driven translation effort is being hosted at GitLocalize. To contribute, you only require a GitHub account.
 
 The GitLocalize project can be found here: https://gitlocalize.com/repo/6185
+
+A help file is available here: https://github.com/sammorrell/chirp-translations/blob/main/translationsHelp.md
