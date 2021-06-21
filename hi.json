@@ -1,0 +1,162 @@
+{
+  "detectors": {
+    "ligo-hanford": "LIGO Hanford",
+    "ligo-livingston": "LIGO Livingston",
+    "virgo": "Virgo",
+    "kagra": "KAGRA"
+  },
+  "alert-type": {
+    "retracted": "Retracted Alert",
+    "bns": "Binary Neutron Star System",
+    "bbh": "Binary Black Hole Merger",
+    "nsbh": "Neutron Star - Black Hole Collision",
+    "noise": "Terrestrial Noise",
+    "massgap": "Source between 3 & 5 Solar masses",
+    "burst": "Burst Candidate"
+  },
+  "sidebar": {
+    "home-menu-item": "Home",
+    "latest-alert-menu-item": "Latest Alert",
+    "all-alerts-menu-item": "All Alerts",
+    "contact-menu-item": "संपर्क",
+    "settings-menu-item": "Settings",
+    "about-menu-item": "About"
+  },
+  "obsstatus": {
+    "network-status-title": "नेटवर्क स्थिति",
+    "last-updated": "आखरी अपडेट",
+    "last-updated-loading": "Loading...",
+    "help-modal": {
+      "description": "This section displays the current status of the global gravitational wave observatory network. The status of each detector is indicated by the colour and icon shown to the right of it. A guide to these is shown below. The length of time in which the detector has been in this state is shown in hours and minutes (in hh:mm format).",
+      "online-science": "Online / Science",
+      "maintenance": "Maintenance",
+      "offline": "Offline",
+      "unknown-status": "Unknown Status"
+    }
+  },
+  "home": {
+    "page-title": "Listening to the Cosmos",
+    "paragraph1": "Gravitational waves are ripples in space-time. The two LIGO detectors, Hanford and Livingston, the Virgo detector in Italy, and the newly commissioned KAGRA detector in Japan have a proven track record of successful observations and are now issuing public alerts of possible gravitational waves events via the Gamma Ray Coordinates (GCN) system.",
+    "paragraph2": "This app listens to the GCN system and displays the information in a friendly format, with links to LIGO-Virgo-KAGRA Gravitational Wave Candidate Event Database (GraceDB) pages for more detailed information. For more information about this app check out our about page.",
+    "latest-alert-button": "Latest Alert",
+    "all-alerts-button": "All Alerts",
+    "background-image-credit": "Image credit: Aurore Simonnet, EPO Sonoma State University"
+  },
+  "alert-list": {
+    "header": "Alerts",
+    "graceid-column-heading": "GraceDB ID",
+    "type-column-heading": "Likely Type",
+    "date-column-heading": "Date (UTC)",
+    "key-heading": "Key"
+  },
+  "about": {
+    "header": "About",
+    "about-us": {
+      "heading": "About Us",
+      "paragraph1": "This app is developed by astrophysics researchers at the Institute for Gravitational Wave Astronomy - University of Birmingham, the Astrophysics Group - University of Exeter and the University of Western Australia who have a passion for public engagement and outreach. Between us, our research interests span everything from observational astronomy to galaxy evolution, cosmology and instrumentation. Our aim is to share our enthusiasm for our research and make it accessible to everyone. ",
+      "paragraph2": "We have designed this app to listen to the NASA Gamma Ray Coordinates Network (GCN). This is a network of servers which allow astronomers to communicate events at short notice, enabling collaboration and open science.",
+      "paragraph3": "The app catches the initial alert, running from the same data as the astronomy community and displays it in a friendly format. This means we have the very latest data but does mean that there may be some false positives. Check to see if the alert is retracted and check the false alarm rate to see how credible a detection is. ",
+      "published-by": "Chirp is published by ",
+      "image-credit": "Credit: Caltech / MIT / LIGO Laboratory. "
+    },
+    "ligo": {
+      "heading": "LIGO",
+      "paragraph1": "The LIGO Scientific Collaboration (LSC) is an international community of scientists working to build earth based Gravitational Wave detectors and use them to learn about the universe. Between us, we represent over 40 years of cutting edge research. LSC scientists build and operatea number of detectors and prototypes, most notably the two LIGO lab detectors.",
+      "paragraph2": "Each of the LIGO detectors is formed from two 4 km long arms at right angles to each other. Both of these detectors are situated in USA, one in Hanford, Washington State (pictured top), and the other in Livingston, Louisiana State (right). These detectors are capable of measuring signals from black holes and neutron stars that warp space and time by less than a thousandth the width of a proton.",
+      "paragraph3": "Both LIGO detectors are responsible for detecting the first direct observation of a gravitational wave, caused by a pair of black holes around a billion light years away in September 2015, concluding a 100-year test of Einstein's theory of General Relativity. ",
+      "image-credit": "Credit: Caltech / MIT / LIGO Laboratory. "
+    },
+    "virgo": {
+      "heading": "Virgo",
+      "paragraph1": "Virgo is a European gravitational wave detector that joined the hunt for new gravitational wave signals shortly after LIGO. The detector is slightly smaller than LIGO at 3 km long and is situated southwest of Pisa, Italy.",
+      "paragraph2": "By operating three detectors, spaced around the globe, scientists were able to locate the first detection of abinary neutron star collision ever in August 2017. Due to the accurate location, scientists could observe the collision with telescopes spawning international interest and new discoveries about our universe, including the origin of heavy elements such as gold.",
+      "image-credit": "Credit: The Virgo Collaboration. "
+    },
+    "kagra": {
+      "heading": "KAGRA",
+      "paragraph1": "KAGRA is a 3 km long gravitational wave detector located inside Mt. Ikenoyama, Kamioka, Gifu in Japan. Unlike both LIGO detectors it features cryogenically cooled sapphire mirrors to improve low frequency (below 100 Hz) sensitivity. Its first observing run is expected to be in late 2019, where it will join LIGO and Virgo hunting for gravitational waves. ",
+      "image-credit": "Credit: Christopher Berry. "
+    }
+  },
+  "contact": {
+    "page-heading": "Contact",
+    "contact-ligo": {
+      "heading": "Contact the LIGO - Virgo Collaboration (LVC)",
+      "text": "For questions regarding gravitational waves and the sites contact LIGO at one of the links below. ",
+      "email-ligo-button": "Email LIGO",
+      "contact-ligo-button": "Contact LIGO",
+      "contact-virgo-button": "Contact Virgo",
+      "contact-kagra-button": "Contact KAGRA",
+      "image-credit": "Credit: Caltech/MIT/LIGO Laboratory. "
+    },
+    "contact-university": {
+      "heading": "Contact the Institute",
+      "text": "For enquires about the gravitational wave group at the University of Birmingham please contact the group. ",
+      "contact-university-button": "Contact the Institute",
+      "image-credit": "Credit: University of Birmingham."
+    },
+    "contact-developers": {
+      "heading": "Contact the Developers",
+      "text": "Got a question about the app? Found a bug? Contact one of the developers. "
+    }
+  },
+  "alert-detail": {
+    "not-applicable": "N/A",
+    "most-likely-origin": "Most Likely Origin",
+    "no-skymap": "No Skymap",
+    "burst-source-text": "This event candidate was found by the unmodelled Burst search. While the Binary search looks for gravitational waves which match calculated signals, the Burst search is more flexible, allowing it to find a range of different signals including those from supernovae, magnetar bursts, and cosmic strings, as well as potentially previously unknown sources. Accordingly, there are no probabilities assigned for the source type.",
+    "alert-status": {
+      "alert-candidate": "Alert Candidate",
+      "alert-retracted": "Alert Retracted"
+    },
+    "section-heading": {
+      "main-section": "Important Event Information",
+      "source-origin-probability-section": "Source Origin Probability",
+      "burst-candidate": "Burst Candidate",
+      "other-information-section": "Other Information"
+    },
+    "main-labels": {
+      "date": "Date",
+      "duration": "Duration (s)",
+      "mean-distance": "Mean Distance (Mpc)",
+      "distance-range": "Distance Range (Mpc)",
+      "far": "False Alarm Rate",
+      "most-likely-origin": "Most Likely Origin"
+    },
+    "source-labels": {
+    },
+    "other-labels": {
+      "graceid-label": "GraceDB ID",
+      "event-type": "Event Type",
+      "event-circulars": "Event Circulars",
+      "role": "Role",
+      "instruments": "Instruments",
+      "last-updated": "Last Updated"
+    },
+    "tooltips": {
+      "graceid": "An identifier uniquely issued by GraceDB. A GraceDB Id has three parts. Prefix: S for normal candidates and MS or TS for mock or test events respectively. The S stands for superevent. Date: The six-digit UTC date of the event consisting of a two-digit year, month, and day of month. Suffix: A lowercase alphabetic string that is incremented automatically (a, b, …, z, aa, ab, … az, aaa, etc.) whenever a candidate on a given date is added to GraceDb.",
+      "pbbh": "Binary black hole. The percent likelihood of the event being the result of two black holes colliding. Both objects must be heavier than 5 solar masses.",
+      "pbns": "Binary neutron star. The percent likelihood of the event being the result of two neutron stars colliding. Both objects must be lighter than 3 solar masses.",
+      "pnsbh": "Neutron star black hole. The percentage likelihood of the event being the result of a neutron star and black hole colliding.",
+      "mostlikely": "The type of system most likely to have caused the detection, based on the source with the largest probability.",
+      "pterrestrial": "The percentage likelihood of the event being triggered by a terrestrial noise source, e.g. earthquakes, glitches etc.",
+      "retracted": "Has the alert been retracted?",
+      "role": "The state the detector network was in when the event was observed. This is usually either 'observation' for when the detectors are observing or a 'test' when the alert system is being tested.",
+      "skymapurl": "The address of the corresponding skymap.",
+      "t_observed": "The time and date at which the event was observed.",
+      "t_received": "The time and date at which alert was received.",
+      "t_updated": "The time and date at which the alert was last updated.",
+      "eventtype": "The classification of the event. This is either 'CBC (Compact Binary Coalescence)' e.g binary black hole collisions, or 'burst' e.g. supernova explosions  ",
+      "instruments": "The interferometers that detected the event, either LIGO Hanford, LIGO Livingston, Virgo, KAGRA.",
+      "eventCirculars": "A link to the list of notices released about the event. Opens an external site.",
+      "hasremnant": "The percentage likelihood, given that the event was astrophysical and at least one object was a neutron star, that some neutron star matter was ejected from the system.",
+      "duration": "The duration of the burst in seconds. If this event was not caused by a burst, the duration will read N/A.",
+      "distmean": "The mean distance of the event from earth, measured in Megaparsecs. 1 Megaparsec = 3.262 million light years = 30.9 billion billion km.",
+      "fluence": "The gravitational wave fluence, measured in erg cm<sup>-2</sup>.",
+      "FAR": "The amount of time expected for there to be an event like this that is not of astrophysical origin. The false alarm rate (FAR) indicates the significance of the event. The more time between false events the more likely that this event is genuine.",
+      "massgap": "The percent likelihood that at least one of the objects had a mass between 3 and 5 solar masses",
+      "distmstd": "The range of possible distances as measured from the earth. These are the mean distance plus and minus the alert standard deviation measured in Megaparsecs. 1 Megaparsec = 3.262 million light years = 32.6 billion billion billion km.",
+      "networkstatus": "The current status of the gravitational wave detectors. Red indicates that the detector is offline, orange indicates the detector is being calibrated or troubleshooting, green means the detector is observing. THe number indicates the hours and minutes the detector has been in this state."
+    }
+  }
+}
