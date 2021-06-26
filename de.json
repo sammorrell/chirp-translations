@@ -1,0 +1,162 @@
+{
+  "detectors": {
+    "ligo-hanford": "LIGO Hanford",
+    "ligo-livingston": "LIGO Livingston",
+    "virgo": "Virgo",
+    "kagra": "KAGRA"
+  },
+  "alert-type": {
+    "retracted": "Zurückgezogene Benachrichtigung",
+    "bns": "Doppelneutronensternsystem",
+    "bbh": "Verschmelzung zweier Schwarzer Löcher",
+    "nsbh": "Neutronenstern-Schwarzes-Loch-Kollision",
+    "noise": "Irdisches Rauschen",
+    "massgap": "Quelle zwischen 3 und 5 Sonnenmassen",
+    "burst": "Ausbruchskandidat"
+  },
+  "sidebar": {
+    "home-menu-item": "Startseite",
+    "latest-alert-menu-item": "Letzte Benachrichtigung",
+    "all-alerts-menu-item": "Alle Benachrichtigungen",
+    "contact-menu-item": "Kontakt",
+    "settings-menu-item": "Einstellungen",
+    "about-menu-item": "Über"
+  },
+  "obsstatus": {
+    "network-status-title": "Status des Netzwerks",
+    "last-updated": "Zuletzt aktualisiert",
+    "last-updated-loading": "Wird geladen…",
+    "help-modal": {
+      "description": "Dieser Abschnitt zeigt den aktuellen Status des weltweiten Netzwerks der Gravitationswellen-Observatorien. Der Status jedes Detektors wird durch die Farbe und das Symbol rechts daneben angezeigt. Eine Anleitung dazu finden Sie unten. Die Zeit, in der sich der Detektor in diesem Zustand befunden hat, wird in Stunden und Minuten (im Format hh:mm) angezeigt.",
+      "online-science": "Online / Wissenschaftliche Datenaufnahme",
+      "maintenance": "Wartungsarbeiten",
+      "offline": "Offline",
+      "unknown-status": "Unbekannter Zustand"
+    }
+  },
+  "home": {
+    "page-title": "Dem Kosmos zuhören",
+    "paragraph1": "Gravitationswellen sind Kräuselungen der Raumzeit. Die beiden LIGO-Detektoren in Hanford und Livingston, der Virgo-Detektor in Italien und der neu in Betrieb genommene KAGRA-Detektor in Japan haben erfolgreich ihre Fähigkeit zur Beobachtung bewiesen und geben nun öffentliche Benachrichtigungen über mögliche Gravitationswellenereignisse über das „Gamma Ray Coordinates“-System (GCN) heraus.",
+    "paragraph2": "Diese Anwendung ist mit dem GCN-System verbunden und zeigt die Informationen in einem benutzerfreundlichen Format an, mit Links zu den Seiten der LIGO-Virgo-KAGRA-Datenbank von Gravitationswellenkandidaten (GraceDB) für weiterführende Informationen. Weitere Informationen zu dieser Anwendung finden Sie auf unserer „Über“-Seite.",
+    "latest-alert-button": "Letzte Benachrichtigung",
+    "all-alerts-button": "Alle Benachrichtigungen",
+    "background-image-credit": "Bildnachweis: Aurore Simonnet, EPO Sonoma State University"
+  },
+  "alert-list": {
+    "header": "Benachrichtigungen",
+    "graceid-column-heading": "ID in GraceDB",
+    "type-column-heading": "Wahrscheinlicher Typ",
+    "date-column-heading": "Datum (UTC)",
+    "key-heading": "Schlüssel"
+  },
+  "about": {
+    "header": "Über",
+    "about-us": {
+      "heading": "Über uns",
+      "paragraph1": "Diese Anwendung wurde von Astrophysiker:innen des Institute for Gravitational Wave Astronomy - University of Birmingham, der Astrophysics Group - University of Exeter und der University of Western Australia entwickelt, die sich leidenschaftlich öffentlich engagieren und Öffentlichkeitsarbeit betreiben. Unsere Forschungsinteressen umfassen alles von beobachtender Astronomie über Galaxienentwicklung, Kosmologie und Instrumentierung. Unser Ziel ist es, unsere Begeisterung für unsere Forschung zu teilen und allen zugänglich zu machen.",
+      "paragraph2": "Wir haben diese Anwendung entwickelt, um Informationen aus dem NASA Gamma Ray Coordinates Network (GCN) zu empfangen. Dabei handelt es sich um ein Netzwerk von Servern, das es Astronom:innen ermöglicht, kurzfristig Ereignisse zu mitzuteilen. Das ermöglicht Zusammenarbeit und offene Wissenschaft.",
+      "paragraph3": "Die Anwednung empfängt die erste Benachrichtigung, die auf denselben Daten wie für die Astronomie-Gemeinschaft basiert, und zeigt sie in einem benutzerfreundlichen Format an. Das bedeutet, dass wir stets über die aktuellsten Daten verfügen, aber es kann auch zu falsch-positiven Ereignissen kommen. Überprüfen Sie, ob die Benachrichtigung zurückgezogen wurde, und überprüfen Sie die Falschalarmrate, um zu sehen, wie glaubwürdig ein Nachweis ist.",
+      "published-by": "Chirp wird veröffentlicht von",
+      "image-credit": "Bildnachweis: Caltech / MIT / LIGO Laboratory. "
+    },
+    "ligo": {
+      "heading": "LIGO",
+      "paragraph1": "Die LIGO Scientific Collaboration (LSC) ist eine internationale Gemeinschaft von Wissenschaftler:innen, die daran arbeiten, Gravitationswellendetektoren auf der Erde zu bauen und sie zu verwenden, um mehr über das Universum zu erfahren. Gemeinsam stehen wir für über 40 Jahre Spitzenforschung. LSC-Wissenschaftler:innen bauen und betreiben eine Reihe von Detektoren und Prototypen, allen voran die beiden LIGO-Detektoren.",
+      "paragraph2": "Jeder der LIGO-Detektoren besteht aus zwei 4 km langen Armen, die im rechten Winkel zueinander stehen. Beide Detektoren befinden sich in den USA, einer in Hanford, Washington State (oben) und der andere in Livingston, Louisiana State (rechts). Diese Detektoren sind in der Lage, Signale von Schwarzen Löchern und Neutronensternen zu messen, die Raum und Zeit um weniger als ein Tausendstel eines Protondurchmessers verzerren.",
+      "paragraph3": "Beide LIGO-Detektoren erbrachten die erste direkte Beobachtung einer Gravitationswelle, die im September 2015 von einem Paar Schwarzer Löcher in einer Entfernung von einer Milliarde Lichtjahren verursacht wurde und damit einen 100 Jahre alten Test von Einsteins allgemeiner Relativitätstheorie darstellt.",
+      "image-credit": "Bildnachweis: Caltech / MIT / LIGO Laboratory. "
+    },
+    "virgo": {
+      "heading": "Virgo",
+      "paragraph1": "Virgo ist ein europäischer Gravitationswellendetektor, der sich kurz nach LIGO der Jagd nach neuen Gravitationswellensignalen anschloss. Der Detektor ist mit 3 km Länge etwas kleiner als LIGO und befindet sich südwestlich von Pisa, Italien.",
+      "paragraph2": "Durch den Betrieb von drei Detektoren, die um den Globus verteilt sind, konnten die Wissenschaftler:innen im August 2017 die erste Entdeckung der Verschmelzung von zwei Neutronensternen lokalisieren. Aufgrund der genauen Himmelsposition konnten Wissenschaftler:innen die Kollision mit Teleskopen beobachten, die internationales Interesse hervorriefen und neue Entdeckungen über unser Universum erbrachten, einschließlich der Herkunft schwerer Elemente wie Gold.",
+      "image-credit": "Bildnachweis: The Virgo Collaboration. "
+    },
+    "kagra": {
+      "heading": "KAGRA",
+      "paragraph1": "KAGRA ist ein 3 km langer Gravitationswellendetektor, der sich im Inneren des Berges Ikenoyama bei Kamioka, Gifu in Japan befindet. Im Gegensatz zu beiden LIGO-Detektoren verfügt er über auf nahe den absoluten Nullpunkt gekühlte Saphirspiegel, um die Empfindlichkeit bei niedrigen Frequenzen (unter 100 Hz) zu verbessern. Sein erster Beobachtungslauf wird voraussichtlich Ende 2019 stattfinden, wo er zusammen mit LIGO und Virgo nach Gravitationswellen jagen wird.",
+      "image-credit": "Bildnachweis: Christopher Berry. "
+    }
+  },
+  "contact": {
+    "page-heading": "Kontakt",
+    "contact-ligo": {
+      "heading": "Die LIGO-Virgo-Kollaboration (LVC) kontaktieren",
+      "text": "Bei Fragen zu Gravitationswellen und den Detektorstandorten kontaktieren Sie LIGO unter einem der folgenden Links.",
+      "email-ligo-button": "Email an LIGO schreiben",
+      "contact-ligo-button": "LIGO kontaktieren",
+      "contact-virgo-button": "Virgo kontaktieren",
+      "contact-kagra-button": "KAGRA kontaktieren",
+      "image-credit": "Bildnachweis: Caltech/MIT/LIGO Laboratory. "
+    },
+    "contact-university": {
+      "heading": "Das Institut kontaktieren",
+      "text": "Für Fragen zur Gravitationswellengruppe an der University of Birmingham wenden Sie sich bitte an die Gruppe.",
+      "contact-university-button": "Das Institut kontaktieren",
+      "image-credit": "Bildnachweis: University of Birmingham."
+    },
+    "contact-developers": {
+      "heading": "Die Entwickler:innen kontaktieren",
+      "text": "Haben Sie eine Frage zur App? Oder Einen Fehler gefunden? Wenden Sie sich an die Entwickler:innen."
+    }
+  },
+  "alert-detail": {
+    "not-applicable": "nicht zutreffend",
+    "most-likely-origin": "Wahrscheinlichster Ursprung",
+    "no-skymap": "Keine Himmelskarte",
+    "burst-source-text": "Dieser Signalkandidat wurde durch die unmodellierte Suche nach Gravitationswellenausbrüchen gefunden. Während die Suche nach Verschmelzungssignalen Gravitationswellen sucht, die mit berechneten Signalen übereinstimmen, ist die Suche nach Ausbrüchen flexibler und ermöglicht es, eine Reihe unterschiedlicher Signale zu finden, darunter solche von Supernovae, Magnetar-Ausbrüchen und kosmischen Strings sowie von potenziell bisher unbekannten Quellen. Daher sind den Quellentypen keine Wahrscheinlichkeiten zugeordnet.",
+    "alert-status": {
+      "alert-candidate": "Benachrichtigungskandidat",
+      "alert-retracted": "Benachrichtigung zurückgezogen"
+    },
+    "section-heading": {
+      "main-section": "Wichtige Informationen über das Ereignis",
+      "source-origin-probability-section": "Herkunftswahrscheinlichkeit",
+      "burst-candidate": "Ausbruchskandidat",
+      "other-information-section": "Weitere Informationen"
+    },
+    "main-labels": {
+      "date": "Datum",
+      "duration": "Dauer (s)",
+      "mean-distance": "Mittlere Entfernung (Mpc)",
+      "distance-range": "Entfernungsbereich (Mpc)",
+      "far": "Falsch-Alarm-Rate",
+      "most-likely-origin": "Wahrscheinlichster Ursprung"
+    },
+    "source-labels": {
+    },
+    "other-labels": {
+      "graceid-label": "ID in GraceDB",
+      "event-type": "Ereignistyp",
+      "event-circulars": "„Circulars“ zu dem Ereignis",
+      "role": "Rolle",
+      "instruments": "Instrumente",
+      "last-updated": "Zuletzt aktualisiert"
+    },
+    "tooltips": {
+      "graceid": "Eine von GraceDB eindeutig vergebene Bezeichnung. Eine solche „ID“ in GraceDB besteht aus drei Teilen. Präfix: S für normale Kandidaten und MS bzw. TS für Schein- bzw. Testereignisse. Das S steht für Superevent. Datum: Das sechsstellige UTC-Datum des Ereignisses, bestehend aus einem zweistelligen Jahr, Monat und Tag des Monats. Suffix: Eine alphabetische Zeichenfolge in Kleinbuchstaben, die automatisch weiterzählt (a, b, …, z, aa, ab, … az, aaa usw.), wenn ein Kandidat an einem bestimmten Datum zu GraceDB hinzugefügt wird.",
+      "pbbh": "Doppelsystem Schwarzer Löcher. Die prozentuale Wahrscheinlichkeit, dass das Ereignis von der Kollision zweier Schwarzer Löcher stammt. Beide Objekte müssen schwerer als 5 Sonnenmassen sein.",
+      "pbns": "Doppelneutronensternsystem. Die prozentuale Wahrscheinlichkeit, dass das Ereignis von der Kollision zweier Neutronensterne stammt. Beide Objekte müssen leichter als 3 Sonnenmassen sein.",
+      "pnsbh": "Neutronstern-Schwarzes-Loch-System. Die prozentuale Wahrscheinlichkeit, dass das Ereignis von der Kollision eines Neutronensterns und eines Schwarzen Lochs stammt.",
+      "mostlikely": "Der Systemtyp, der den Nachweis am wahrscheinlichsten verursacht hat, basierend auf der Quelle mit der größten Wahrscheinlichkeit.",
+      "pterrestrial": "Die prozentuale Wahrscheinlichkeit, dass das Ereignis durch eine terrestrische Störquelle ausgelöst wird, z.B. Erdbeben, Störungen im Detektor etc.",
+      "retracted": "Wurde die Benachrichtigung zurückgezogen?",
+      "role": "Der Zustand, in dem sich das Detektornetzwerk befand, als das Ereignis beobachtet wurde. Dies ist normalerweise entweder „Beobachtung“, wenn die Detektoren beobachten, oder „Test“, wenn das Benachrichtigssystem getestet wird.",
+      "skymapurl": "Die Adresse der zugehörigen Himmelskarte.",
+      "t_observed": "Die Uhrzeit und das Datum, an dem das Ereignis beobachtet wurde.",
+      "t_received": "Die Uhrzeit und das Datum, an dem die Benachrichtigung empfangen wurde.",
+      "t_updated": "Uhrzeit und Datum der letzten Aktualisierung der Benachrichtigung.",
+      "eventtype": "Die Klassifizierung des Ereignisses. Sie ist entweder „CBC (Compact Binary Coalescence)“, z. B. Verschmelzung von zwei Schwarzen Löchern, oder „Ausbruch“, z. B. Supernova-Explosionen",
+      "instruments": "Die Interferometer, die das Ereignis nachgewiesen haben, entweder LIGO Hanford, LIGO Livingston, Virgo, oder KAGRA.",
+      "eventCirculars": "Ein Link zur Liste der über das Ereignis veröffentlichten Mitteilungen. Öffnet eine externe Seite.",
+      "hasremnant": "Die prozentuale Wahrscheinlichkeit, dass ein Teil der Neutronensternmaterie aus dem System ausgestoßen wurde, wenn das Ereignis einen astrophysikalischen Urspung hat und mindestens ein Objekt ein Neutronenstern war.",
+      "duration": "Die Dauer des Ausbruchs in Sekunden. Wenn dieses Ereignis nicht durch einen Ausbruch verursacht wurde, lautet die Dauer „nicht verfügbar“.",
+      "distmean": "Die mittlere Entfernung des Ereignisses von der Erde, gemessen in Megaparsec. 1 Megaparsec = 3,262 Millionen Lichtjahre = 30,9 Milliarden Milliarden km.",
+      "fluence": "Die Gravitationswelleneinstrahlung, gemessen in erg cm<sup>-2</sup>.",
+      "FAR": "Die voraussichtliche Zeitspanne in der ein Ereignis wie dieses auftritt, das nicht astrophysikalischen Ursprungs ist. Die Falschalarmrate (FAR) zeigt die Signifikanz des Ereignisses an. Je mehr Zeit zwischen falschen Ereignissen liegt, desto wahrscheinlicher ist es, dass dieses Ereignis echt ist.",
+      "massgap": "Die prozentuale Wahrscheinlichkeit, dass mindestens eines der Objekte eine Masse zwischen 3 und 5 Sonnenmassen hat",
+      "distmstd": "Der Bereich der möglichen Entfernungen, gemessen von der Erde. Dies sind die mittlere Distanz plus und minus der Standardabweichung der Benachrichtigung, gemessen in Megaparsec. 1 Megaparsec = 3,262 Millionen Lichtjahre = 30,9 Milliarden Milliarden Milliarden km.",
+      "networkstatus": "Der aktuelle Status der Gravitationswellendetektoren. Rot bedeutet, dass der Detektor offline ist, Orange zeigt an, dass der Detektor kalibriert wird oder ein Fehler behoben wird, Grün bedeutet, dass der Detektor beobachtet. Die Zahl zeigt die Stunden und Minuten an, in denen sich der Detektor in diesem Zustand befunden hat."
+    }
+  }
+}
