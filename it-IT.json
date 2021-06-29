@@ -1,0 +1,162 @@
+{
+  "detectors": {
+    "ligo-hanford": "LIGO Hanford",
+    "ligo-livingston": "LIGO Livingston",
+    "virgo": "Virgo",
+    "kagra": "KAGRA"
+  },
+  "alert-type": {
+    "retracted": "Allerta ritirata",
+    "bns": "Binaria di stelle di neutroni",
+    "bbh": "Binaria di buchi neri",
+    "nsbh": "Binaria di buco nero e stella di neutroni",
+    "noise": "Rumore terrestre",
+    "massgap": "Sorgente fra 3 e 5 masse solari",
+    "burst": "Candidato \"Burst\""
+  },
+  "sidebar": {
+    "home-menu-item": "Home",
+    "latest-alert-menu-item": "Allerte più recenti",
+    "all-alerts-menu-item": "Tutte le allerte",
+    "contact-menu-item": "Contatti",
+    "settings-menu-item": "Impostazioni",
+    "about-menu-item": "Info"
+  },
+  "obsstatus": {
+    "network-status-title": "Stato del network",
+    "last-updated": "Ultimo aggiornamento",
+    "last-updated-loading": "Caricamento...",
+    "help-modal": {
+      "description": "Questa sezione mostra lo stato attuale della rete globale di osservatori di onde gravitazionali. Lo stato di ciascun rivelatore è indicato dal colore e dall'icona mostrati alla sua destra. Una leggenda è mostrata di seguito. Il tempo in cui il rilevatore è rimasto nello stato corrente è mostrato in ore e minuti (in formato hh:mm).",
+      "online-science": "Online / Scienza",
+      "maintenance": "Manutenzione",
+      "offline": "Offline",
+      "unknown-status": "Stato sconosciuto"
+    }
+  },
+  "home": {
+    "page-title": "Ascoltando il cosmo",
+    "paragraph1": "Le onde gravitazionali sono increspature nello spazio-tempo. I due rivelatori LIGO, situati negli Stati Uniti d'America a Hanford e Livingston, il rivelatore Virgo in Italia, e il rivelatore KAGRA recentemente installato in Giappone, hanno effettuato una serie di osservazioni di onde gravitazionali, e ora rilasciano pubblicamente allerte in tempo reale di possibili onde gravitazionali, attraverso il Gamma Ray Coordinate system (GCN).",
+    "paragraph2": "Questa app monitora annunci del sistema GCN e mostra le informazioni in un formato semplificato, con collegamenti alle pagine di GraceDB (LIGO-Virgo-KAGRA Gravitational Wave Candidate Event Database) per ottenere informazioni piú dettagliate.\nUlteriori informazioni sulla app sono disponibili alla nostra pagina \"Chi siamo\".\n",
+    "latest-alert-button": "Allerte più recenti",
+    "all-alerts-button": "Tutte le allerte",
+    "background-image-credit": "Illustrazione di: Aurore Simonnet, EPO Sonoma State University"
+  },
+  "alert-list": {
+    "header": "Allerte",
+    "graceid-column-heading": "GraceDB ID",
+    "type-column-heading": "Tipo di sorgente",
+    "date-column-heading": "Data (UTC)",
+    "key-heading": "Key"
+  },
+  "about": {
+    "header": "Info",
+    "about-us": {
+      "heading": "Chi siamo",
+      "paragraph1": "Questa app è sviluppata da ricercatori in astrofisica presso l'Institute for Gravitational Wave Astronomy dell'Università di Birmingham, l'Astrophysics group presso l'Università di Exeter e l'Università di Western Australia, che condividono una passione per la divulgazione scientifica. \nI nostri interessi spaziano dalla astronomia osservativa alla fisica dell'evoluzione delle galassie, dalla cosmologia alla fisica sperimentale.\nIl nostro obiettivo è di convidere l'entusiasmo per la nostra ricerca e renderla accessibile a tutti. ",
+      "paragraph2": "Questa app é sviluppata per monitorare il NASA Gamma Ray Coordinates Network (GCN), una rete di servers che permette agli astronomi di comunicare eventi rapidamente, facilitandone la collaborazione internazionale.",
+      "paragraph3": "Chirp rileva le allerte iniziali, a partire dalle stesse informazioni usate dagli astronomi e mostrandole in un formato semplificato. Di conseguenza, mostrando i più recenti dati disponibili, ci potrebbero essere dei falsi positivi. Controlla lo stato di ogni allerta per sapere se è stata ritirata e la sua probabilità di falso allarme.\n",
+      "published-by": "Chirp é pubblicata da",
+      "image-credit": "Immagine di: Caltech / MIT / LIGO Laboratory. "
+    },
+    "ligo": {
+      "heading": "LIGO",
+      "paragraph1": "La LIGO Scientific Collaboration (LSC) \nè una comunità internazionale di scienziati, impegnata nella costruzione di detector terrestri di onde gravitazionali, e nel loro uso per comprendere l'Universo.\nCon piú di 40 anni di ricerca \nd'avanguardia, gli scienzati della collaborazione costruiscono e mantengono un certo numero di detector e prototipi, tra cui i due situati nei laboratori LIGO.",
+      "paragraph2": "Ciascun rivelatore LIGO é formato da due braccia lunghe 4 km orientate ad angolo retto tra loro. Entrambi i rivelatori sono situati negli USA, uno a Hanford nello stato di Washington (immagine piú in alto), e l'altro a Livingston, nello stato del Louisiana (immagine a destra). Questi rivelatori sono in grado di misurare segnali provenienti da buchi neri e stelle di neutroni, associati a increspature dello spazio tempo piú piccole di un millesimo del diametro di un protone.",
+      "paragraph3": "Entrambi i rivelatori LIGO sono responsabili della prima osservazione  diretta di una onda gravitazionale , causata da una coppia di buchi neri distanti circa un miliardo di anni luce da noi.\nAvvenuta a Settembre 2015, la scoperta costituisce un importante test della teoria della relatività generale di Einstein, a 100 anni dalla sua pubblicazione.",
+      "image-credit": "Immagine di: Caltech / MIT / LIGO Laboratory. "
+    },
+    "virgo": {
+      "heading": "Virgo",
+      "paragraph1": "Virgo è un rivelatore europeo di onde gravitazionali che si è aggiunto alla caccia di nuovi segnali di onde gravitazionali poco dopo LIGO.\nIl rivelatore é piú piccolo di LIGO, con braccia di 3 km di lunghezze, ed è situato a sud-ovest di Pisa, Italia.",
+      "paragraph2": "Attraverso la rete di tre rivelatori, posizionati sul globo terrestre, gli scienziati sono stati in grado di localizzare la prima osservazione di un sistema binario di stelle di neutroni nell' Agosto 2017. Grazie alla accurata localizzazione, gli scienziati hanno potuto osservare la stessa collisione con altri telescopi, suscitando interesse internazionale e nuove scoperte sul nostro Universo, tra cui l'origine dei metalli pesanti come l'oro.",
+      "image-credit": "Immagine: Collaborazione Virgo.\n"
+    },
+    "kagra": {
+      "heading": "KAGRA\n",
+      "paragraph1": "KAGRA è un rivelatore di onde gravitazionali lungo 3km costruito nel monte Ikenoyama, Kamioka, Gifu in Giappone. A differenza dei due rivelatori LIGO, è equipaggiato con specchi di zaffiro raffreddati criogenicamente per migliorare la sensibilità a bassa frequenza (al di sotto di 100 Hz). La sua prima raccolta dati è prevista per il tardo 2019, quando entrerà a far parte della rete di rivelatori di LIGO e Virgo nella caccia alle onde gravitazionali.",
+      "image-credit": "Immagine di: Christopher Berry. "
+    }
+  },
+  "contact": {
+    "page-heading": "Contatti",
+    "contact-ligo": {
+      "heading": "Contatta la Collaborazione LIGO - Virgo (LVC)",
+      "text": "Per domande sulle onde gravitazionali e i laboratori, contatta LIGO a uno dei seguenti indirizzi.",
+      "email-ligo-button": "Email LIGO",
+      "contact-ligo-button": "Contatta LIGO",
+      "contact-virgo-button": "Contatta Virgo",
+      "contact-kagra-button": "Contatta KAGRA",
+      "image-credit": "Immagine: Caltech/MIT/LIGO Laboratory. "
+    },
+    "contact-university": {
+      "heading": "Contatta l'Istituto",
+      "text": "Per richieste riguardo il gruppo di onde gravitazionali dell'Università di Birmingham contatta l'Istituto.",
+      "contact-university-button": "Contatta l'Istituto",
+      "image-credit": "Immagine: Università di Birmingham."
+    },
+    "contact-developers": {
+      "heading": "Contatta gli sviluppatori",
+      "text": "Hai una domanda riguardo l'app? Hai trovato un bug? Contatta uno degli sviluppatori. "
+    }
+  },
+  "alert-detail": {
+    "not-applicable": "N/A",
+    "most-likely-origin": "Origine più verosimile",
+    "no-skymap": "Nessuna mappa",
+    "burst-source-text": "Questo evento è stato individuato dalla ricerca di segnali non modellizzati. \nMentre la ricerca di binarie compatte cerca signali di onde gravitazionali confrontandoli con segnali precalcolati, la ricerca non modellizzata è più flessibile, permettendo di trovare nei dati una varietà di segnali tra cui esplosioni di supernovae, getti di onde gravitazionali da magnetar o stringhe cosmiche, e da sorgenti potenzialmente ignote.\nDi conseguenza, questi segnali non hanno una probabilità associata per ogni tipo di sorgente.",
+    "alert-status": {
+      "alert-candidate": "Evento candidato",
+      "alert-retracted": "Allerta ritirata"
+    },
+    "section-heading": {
+      "main-section": "Caratteristiche evento",
+      "source-origin-probability-section": "Possibile origine ",
+      "burst-candidate": "Burst Candidate",
+      "other-information-section": "Informazioni aggiuntive"
+    },
+    "main-labels": {
+      "date": "Data",
+      "duration": "Durata (s)",
+      "mean-distance": "Distanza media (Mpc)",
+      "distance-range": "Intervallo di distanze (Mpc)",
+      "far": "Frequenza di falso allarme",
+      "most-likely-origin": "Origine piú verosimile"
+    },
+    "source-labels": {
+    },
+    "other-labels": {
+      "graceid-label": "GraceDB ID",
+      "event-type": "Tipo di evento",
+      "event-circulars": "Circolare dell'evento",
+      "role": "Ruolo",
+      "instruments": "Rivelatori",
+      "last-updated": "Ultimo aggiornamento"
+    },
+    "tooltips": {
+      "graceid": "Un identificatore generato da GraceDb. Un GraceDb ID ha tre parti. Prefisso: S per candidati ordinari e MS o TS per candidati finti (\"Mock\") o di Test, rispettivamente.\nLa S è una abbreviazione di Superevento. Data: la data in formato UTC a sei cifre costituita da due cifre per l'anno, due per il mese, due per il giorno del mese.\nSuffisso: una stringa di caratteri minuscoli che è incrementata automaticamente (a,b,...,z, aa, ab,..., az, etc.) quando un nuovo candidato per una certa data viene generato da GraceDb.",
+      "pbbh": "Binaria di buchi neri. La probabilità (espressa in percentuale) che l'evento sia il risultato della collisione di due buchi neri. Entrambi gli oggetti devono essere più pesanti di 5 masse solari.",
+      "pbns": "Binaria di stelle di neutroni. La probabilità (espressa in percentuale) che l'evento sia il risultato della collisione di due buchi neri. Entrambi gli oggetti devono essere più leggeri di 3 masse solari.",
+      "pnsbh": "Binaria di stella neutroni e buco nero. La probabilità (espressa in percentuale) che l'evento sia il risultato della collisione di una stella di neutroni con un buco nero.",
+      "mostlikely": "Il sistema astrofisico che piú verosimilmente ha causato l'evento, basato sulla classe di sorgenti con la maggiore probabilità. ",
+      "pterrestrial": "La probabilità (espressa in percentuale) che l'evento sia stato causato da rumore terrestre, ad esempio terremoti, \"glitches\" etc.",
+      "retracted": "Allerta ritirata?",
+      "role": "Lo stato della rete di rivelatori quando l'evento è stato osservato. Di solito questo è \"osservazione\" quando i rivelatori sono in raccolta dati, o \"test\" quando vengono eseguiti dei test sul sistema di allerte.",
+      "skymapurl": "L'indirizzo della corrispondente mappa di localizzazione.",
+      "t_observed": "Il giorno e l'ora in cui l'evento è stato osservato.",
+      "t_received": "L'ora e il giorno in cui l'allerta è stata ricevuta.",
+      "t_updated": "L'ora e il giorno in cui l'allerta è stata aggiornata.",
+      "eventtype": "La classificazione dell'evento. Solitamente: 'CBC (Coalescenza di Binaria compatta)', come ad esempio la collisione di due buchi neri in un sistema binario, o 'burst' come ad esempio l'esplosione di una supernova.",
+      "instruments": "Gli interferometri che hanno osservato l'evento: uno o piú tra LIGO Hanford, LIGO Livingston, Virgo, KAGRA.",
+      "eventCirculars": "Collegamento alla lista di tutte le allerte notificate  riguardo l'evento. Apre un sito web differente. ",
+      "hasremnant": "La probabilità (espressa come percentuale) che, assumendo che il segnale sia di origine astrofisica e almeno uno dei due oggetti sia una stella di neutroni,  materia della stella di neutroni sia stata emessa dal sistema durante la collisione.",
+      "duration": "La durata del burst. Se questo evento non è stato causato da un burst, la durata è indicata con N/A.",
+      "distmean": "La distanza media dell'evento dalla Terra, misurata in Megaparsec. 1 Megaparsec= 3.262 milioni di anni luce= 30.9 miliardi di miliardi di km.",
+      "fluence": "Il flusso di energia sotto forma di onde gravitazionali, misurata in erg cm<sup>-2</sup>.",
+      "FAR": "La frequenza con cui eventi simili a questo vengono generati da rumore di origine terrestre.\nLa frequenza di falso allarme (FAR) indica la significatività dell'evento. \nMinore il FAR, più verosimile che l'evento osservato sia di origine astrofisica.",
+      "massgap": "La probabilità (espressa come percentuale) che almeno uno degli oggetti del sistema binario ha una massa tra 3 e 5 masse solari.",
+      "distmstd": "L'intervallo di possibili distance delle sorgenti dell'evento dalla Terra. Indicato con la distanza mediana, e la deviazione standard misurata in Megaparsecs. 1 Megaparsec = 3.262 milioni di anni luce = 30.9 miliardi di miliardi km.",
+      "networkstatus": "Stato attuale della rete di rivelatori di onde gravitazionali. Rosso indica che il rivelatore è offline; arancio indica che è in corso la calibrazione o la risoluzione di problemi del rivelatore; verde indica che il rivelatore sta osservando. \nIl numero indica le ore e i minuti in cui il rivelatore è stato nello stato corrente."
+    }
+  }
+}
