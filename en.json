@@ -162,10 +162,14 @@
         }
     },
     "settings" : {
+        "save-button" : "Save",
         "language-section" : {
-            "header" : "Language"
+            "header" : "Language",
+            "system-language": "System Language",
+            "available-languages": "Available Languages",
+            "default": "Default"
         },
-        "notification-section" : {
+        "notifications-section" : {
             "header" : "Notifications",
             "footer" : "This allows you to select the notifications that you'd like to receive. ",
             "rows" : {
