@@ -160,5 +160,43 @@
             "distmstd": "The range of possible distances as measured from the earth. These are the mean distance plus and minus the alert standard deviation measured in Megaparsecs. 1 Megaparsec = 3.262 million light years = 32.6 billion billion billion km.",
             "networkstatus": "The current status of the gravitational wave detectors. Red indicates that the detector is offline, orange indicates the detector is being calibrated or troubleshooting, green means the detector is observing. THe number indicates the hours and minutes the detector has been in this state."
         }
+    },
+    "settings" : {
+        "language-section" : {
+            "header" : "Language"
+        },
+        "notification-section" : {
+            "header" : "Notifications",
+            "footer" : "This allows you to select the notifications that you'd like to receive. ",
+            "rows" : {
+                "all-notifications-row" : "All Notifications",
+                "general-notifications-row" : "General Notifications"
+            }
+        },
+        "alert-type-section" : {
+            "header" : "Alert Type Notifications",
+            "footer" : "This allows you to select which types of notifications that you'd like to receive. ",
+            "rows" : {
+                "preliminary-alerts-row" : "Preliminary Alerts",
+                "initial-alerts-row" : "Initial Alerts",
+                "update-alerts-row" : "Update Alerts",
+                "old-event-alerts-row" : "Old Event Alerts"
+            }
+        },
+        "event-type-section" : {
+            "header" : "Event Type Notifications",
+            "footer" : "This allows you to select which types of alerts that you'd like to receive. ",
+            "rows" : {
+                "bbh" : "Binary Black Hole Candidates",
+                "nsbh" : "Neutron Star Black Hole Candidates",
+                "nsns" : "Neutron Star Neutron Star Candidates",
+                "massgap" : "MassGap Candidates",
+                "burst" : "Burst Candidates"
+            }
+        },
+        "reset-section" : {
+            "footer" : "This will reset all settings to their default values. ",
+            "button" : "Reset to Default"
+        }
     }
 }
