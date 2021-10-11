@@ -198,6 +198,11 @@
                 "burst" : "Burst Candidates"
             }
         },
+        "preliminary-alerts" : {
+            "header" : "Preliminary Alerts",
+            "show-preliminary-alerts-row" : "Show Preliminary Alerts",
+            "footer" : "By default you will only see notifications for events that have been verified by a human. Enabling this setting will make Chirp also show notifications for preliminary alerts, which are machine-generated. "
+        },
         "reset-section" : {
             "footer" : "This will reset all settings to their default values. ",
             "button" : "Reset to Default"
