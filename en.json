@@ -174,7 +174,8 @@
             "footer" : "This allows you to select the notifications that you'd like to receive. ",
             "rows" : {
                 "all-notifications-row" : "All Notifications",
-                "general-notifications-row" : "General Notifications"
+                "general-notifications-row" : "News Alerts",
+                "paper-notifications-row" : "Press Releases"
             }
         },
         "alert-type-section" : {
@@ -188,14 +189,14 @@
             }
         },
         "event-type-section" : {
-            "header" : "Event Type Notifications",
-            "footer" : "This allows you to select which types of alerts that you'd like to receive. ",
+            "header" : "Science Notifications",
+            "footer" : "This allows you to select which types of candidate events that you'd like to receive for. ",
             "rows" : {
-                "bbh" : "Binary Black Hole Candidates",
-                "nsbh" : "Neutron Star Black Hole Candidates",
-                "nsns" : "Neutron Star Neutron Star Candidates",
-                "massgap" : "MassGap Candidates",
-                "burst" : "Burst Candidates"
+                "bbh" : "Binary Black Hole",
+                "nsbh" : "Neutron Star Black Hole",
+                "nsns" : "Neutron Star Neutron Star",
+                "massgap" : "MassGap",
+                "burst" : "Burst"
             }
         },
         "reset-section" : {
