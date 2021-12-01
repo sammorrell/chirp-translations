@@ -77,6 +77,10 @@
             "paragraph1" : "KAGRA is a 3 km long gravitational wave detector located inside Mt. Ikenoyama, Kamioka, Gifu in Japan. Unlike both LIGO detectors it features cryogenically cooled sapphire mirrors to improve low frequency (below 100 Hz) sensitivity. Its first observing run is expected to be in late 2019, where it will join LIGO and Virgo hunting for gravitational waves. ",
             "image-credit" : "Credit: Christopher Berry. "
 
+        },
+        "translations" : {
+            "heading" : "Translations",
+            "paragraph1" : "We would like to acknowledge our incredible community of volunteer translators and thank them for their work. "
         }
     },
     "contact" : {
