@@ -35,6 +35,7 @@
         }
     },
     "home" : {
+        "header" : "Chirp",
         "page-title" : "Listening to the Cosmos",
         "paragraph1" : "Gravitational waves are ripples in space-time. The two LIGO detectors, Hanford and Livingston, the Virgo detector in Italy, and the newly commissioned KAGRA detector in Japan have a proven track record of successful observations and are now issuing public alerts of possible gravitational waves events via the Gamma Ray Coordinates (GCN) system.",
         "paragraph2" : "This app listens to the GCN system and displays the information in a friendly format, with links to LIGO-Virgo-KAGRA Gravitational Wave Candidate Event Database (GraceDB) pages for more detailed information. For more information about this app check out our about page.",
@@ -139,6 +140,19 @@
             "instruments" : "Instruments",
             "last-updated" : "Last Updated"
         },
+        "false-alarm-rate" : {
+            "age-of-universe" : "1 per %FAR% times the age of the Universe",
+            "age-of-earth" : "1 per %FAR% times the age of the Earth",
+            "years" : "1 per %FAR% years",
+            "months" : "1 per %FAR% months",
+            "per-year" : "%FAR% per year",
+            "thousand" : "%FAR% thousand",
+            "million" : "%FAR% million",
+            "billion" : "%FAR% billion",
+            "trillion" : "%FAR% trillion",
+            "quadrillion" : "%FAR% quadrillion",
+            "quintillion" : "%FAR% quintillion"
+        },
         "tooltips" : {
             "graceid" : "An identifier uniquely issued by GraceDB. A GraceDB Id has three parts. Prefix: S for normal candidates and MS or TS for mock or test events respectively. The S stands for superevent. Date: The six-digit UTC date of the event consisting of a two-digit year, month, and day of month. Suffix: A lowercase alphabetic string that is incremented automatically (a, b, …, z, aa, ab, … az, aaa, etc.) whenever a candidate on a given date is added to GraceDb.",
             "pbbh": "Binary black hole. The percent likelihood of the event being the result of two black holes colliding. Both objects must be heavier than 5 solar masses.",
@@ -166,6 +180,7 @@
         }
     },
     "settings" : {
+        "header" : "Settings",
         "save-button" : "Save",
         "language-section" : {
             "header" : "Language",
