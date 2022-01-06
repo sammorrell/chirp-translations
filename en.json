@@ -70,7 +70,7 @@
         "virgo" : {
             "heading" : "Virgo",
             "paragraph1" : "Virgo is a European gravitational wave detector that joined the hunt for new gravitational wave signals shortly after LIGO. The detector is slightly smaller than LIGO at 3 km long and is situated southwest of Pisa, Italy.",
-            "paragraph2" : "By operating three detectors, spaced around the globe, scientists were able to locate the first detection of abinary neutron star collision ever in August 2017. Due to the accurate location, scientists could observe the collision with telescopes spawning international interest and new discoveries about our universe, including the origin of heavy elements such as gold.",
+            "paragraph2" : "By operating three detectors, spaced around the globe, scientists were able to locate the first detection of a binary neutron star collision ever in August 2017. Due to the accurate location, scientists could observe the collision with telescopes spawning international interest and new discoveries about our universe, including the origin of heavy elements such as gold.",
             "image-credit" : "Credit: The Virgo Collaboration. "
         },
         "kagra" : {
@@ -176,7 +176,7 @@
             "FAR" : "The amount of time expected for there to be an event like this that is not of astrophysical origin. The false alarm rate (FAR) indicates the significance of the event. The more time between false events the more likely that this event is genuine.",
             "massgap": "The percent likelihood that at least one of the objects had a mass between 3 and 5 solar masses",
             "distmstd": "The range of possible distances as measured from the earth. These are the mean distance plus and minus the alert standard deviation measured in Megaparsecs. 1 Megaparsec = 3.262 million light years = 32.6 billion billion billion km.",
-            "networkstatus": "The current status of the gravitational wave detectors. Red indicates that the detector is offline, orange indicates the detector is being calibrated or troubleshooting, green means the detector is observing. THe number indicates the hours and minutes the detector has been in this state."
+            "networkstatus": "The current status of the gravitational wave detectors. Red indicates that the detector is offline, orange indicates the detector is being calibrated or troubleshooting, green means the detector is observing. The number indicates the hours and minutes the detector has been in this state."
         }
     },
     "settings" : {
