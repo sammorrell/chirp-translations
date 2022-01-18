@@ -1,18 +1,229 @@
 {
-    "sidebar" : {
-        "home-menu-item" : "Huis",
-        "latest-alert-menu-item" : "Laatste waarschuwing",
-        "all-alerts-menu-item" : "Alle waarschuwingen",
-        "contact-menu-item" : "Contact",
-        "settings-menu-item" : "Instellingen",
-        "about-menu-item" : "Over"
-    },
-    "obsstatus" : {
-        "network-status-title" : "Netwerk Status",
-        "last-updated" : "Laatst Bijgewerkt",
-        "last-updated-loading" : "Laden..."
-    },
-    "home" : {
-        "page-title" : "Luisteren naar de Kosmos "
+  "detectors": {
+    "ligo-hanford": "LIGO Hanford",
+    "ligo-livingston": "LIGO Livingston",
+    "virgo": "Virgo",
+    "kagra": "KAGRA"
+  },
+  "alert-type": {
+    "retracted": "Ingetrokken Waarneming",
+    "bns": "Binaire Neutronensterren Systeem",
+    "bbh": "Binaire Zwarte Gat Fusie",
+    "nsbh": "Neutronensterren - Fuserende Zwarte Gaten",
+    "noise": "Aardse ruis",
+    "massgap": "Bron tussen de 3 & 5 Solar masses",
+    "burst": "Flits Kandidaat"
+  },
+  "sidebar": {
+    "home-menu-item": "Menu",
+    "latest-alert-menu-item": "Meest Recente Meldingen",
+    "all-alerts-menu-item": "Alle Waarschuwingen",
+    "contact-menu-item": "Contact",
+    "settings-menu-item": "Instellingen",
+    "about-menu-item": "Over"
+  },
+  "obsstatus": {
+    "network-status-title": "Netwerk Status",
+    "last-updated": "Laatst Bijgewerkt",
+    "last-updated-loading": "Laden...",
+    "help-modal": {
+      "description": "Dit gedeelte toont de huidige status van het wereldwijde observatoriumnetwerk voor zwaartekrachtgolven. De status van elke detector wordt aangegeven door de kleur en het pictogram aan de rechterkant. Een handleiding hiervoor wordt hieronder weergegeven. De tijdsduur dat de detector in deze toestand is geweest, wordt weergegeven in uren en minuten (in uu:mm-formaat).",
+      "online-science": "Online / Wetenschap",
+      "maintenance": "Onderhoud",
+      "offline": "Offline",
+      "unknown-status": "Status Onbekend "
     }
+  },
+  "home": {
+    "header": "Chirp",
+    "page-title": "Luisteren naar de Kosmos ",
+    "paragraph1": "Zwaartekrachtgolven zijn rimpelingen in de ruimtetijd. \nDe twee LIGO-detectoren, Hanford en Livingston, de Virgo-detector in Italië en de nieuw in gebruik genomen KAGRA-detector in Japan hebben een bewezen track record op het gebied van succesvolle waarnemingen en geven nu openbare waarschuwingen uit voor mogelijke zwaartekrachtsgolven via de Gamma Ray Coördinaten (GCN) systeem.",
+    "paragraph2": "Deze app luistert naar het GCN-systeem en geeft de informatie weer in een vriendelijk format, met links naar LIGO-Virgo-KAGRA Gravitational Wave Candidate Event Database (GraceDB)-pagina's voor meer gedetailleerde informatie. Kijk voor meer informatie over deze app op onze over-pagina.",
+    "latest-alert-button": "Meest Recente Waarneming",
+    "all-alerts-button": "Alle Waarnemingen",
+    "background-image-credit": "Afbeelding door: Aurore Simonnet, EPO Sonoma State University"
+  },
+  "alert-list": {
+    "header": "Waarschuwingen",
+    "graceid-column-heading": "GraceDB ID",
+    "type-column-heading": "Waarschijnlijke Type",
+    "date-column-heading": "Datum (UTC)",
+    "key-heading": "Key"
+  },
+  "about": {
+    "header": "Informatie",
+    "about-us": {
+      "heading": "Over Ons",
+      "paragraph1": "Deze app is ontwikkeld door astrofysica-onderzoekers van het Institute for Gravitational Wave Astronomy - University of Birmingham, de Astrophysics Group - University of Exeter en de University of Western Australia, die een passie hebben voor publieke betrokkenheid en outreach. Onze onderzoeksinteresses omvatten alles van observationele astronomie tot de evolutie van sterrenstelsels, kosmologie en instrumentatie. Ons doel is om ons enthousiasme voor ons onderzoek te delen en voor iedereen toegankelijk te maken.",
+      "paragraph2": "We hebben deze app ontworpen om te luisteren naar het NASA Gamma Ray Coordinates Network (GCN). \nDit is een netwerk van servers waarmee astronomen gebeurtenissen op korte termijn kunnen communiceren, wat samenwerking en open wetenschap mogelijk maakt.",
+      "paragraph3": "De app vangt de eerste waarneming op, die wordt uitgevoerd op basis van dezelfde gegevens als de astronomiegemeenschap en geeft deze in een vriendelijk format weer. Dit betekent dat we de meest recente gegevens hebben, maar dat betekent ook dat er enkele valse positieven kunnen zijn. Controleer of de waarschuwing is ingetrokken en controleer het percentage valse alarmen om te zien hoe geloofwaardig een detectie is.",
+      "published-by": "Chirp is gepubliceerd door",
+      "image-credit": "Credit: Caltech / MIT / LIGO Laboratory. "
+    },
+    "ligo": {
+      "heading": "LIGO",
+      "paragraph1": "De LIGO Scientific Collaboration (LSC) is een internationale gemeenschap van wetenschappers, die werken aan het bouwen van op aarde gebaseerde Gravitational Wave-detectoren en deze gebruiken om meer te weten te komen over het universum. Samen vertegenwoordigen we meer dan 40 jaar baanbrekend onderzoek. LSC-wetenschappers bouwen en bedienen een aantal detectoren en prototypes, met name de twee LIGO-labdetectoren.",
+      "paragraph2": "Elk van de LIGO-detectoren is gevormd uit twee 4 km lange armen die haaks op elkaar staan. Beide detectoren bevinden zich in de VS, één in Hanford, de staat Washington (foto bovenaan) en de andere in Livingston, de staat Louisiana (rechts). Deze detectoren zijn in staat signalen te meten van zwarte gaten en neutronensterren die ruimte en tijd minder dan een duizendste van de breedte van een proton vervormen.",
+      "paragraph3": "Beide LIGO-detectoren zijn verantwoordelijk voor het detecteren van de eerste directe waarneming van een zwaartekrachtgolf in september 2015, veroorzaakt door een paar zwarte gaten op ongeveer een miljard lichtjaar afstand, waarmee een 100-jarige test van Einsteins algemene relativiteitstheorie werd afgesloten.",
+      "image-credit": "Credit: Caltech / MIT / LIGO Laboratory. "
+    },
+    "virgo": {
+      "heading": "Virgo",
+      "paragraph1": "Virgo is een Europese zwaartekrachtgolfdetector die kort na LIGO op jacht ging naar nieuwe zwaartekrachtgolfsignalen. De detector is iets kleiner dan LIGO met een lengte van 3 km en bevindt zich ten zuidwesten van Pisa, Italië.",
+      "paragraph2": "Door drie detectoren te bedienen, verspreid over de hele wereld, konden wetenschappers in augustus 2017 de eerste detectie van een botsing met een binaire neutronenster ooit lokaliseren. \nDankzij de nauwkeurige locatie konden wetenschappers de botsing met telescopen observeren die internationale belangstelling en nieuwe ontdekkingen over ons universum brachten, inclusief de oorsprong van zware elementen zoals goud.",
+      "image-credit": "Credit: De Virgo Collaboration. "
+    },
+    "kagra": {
+      "heading": "KAGRA",
+      "paragraph1": "KAGRA is een 3 km lange zwaartekrachtgolfdetector die zich in de berg Ikenoyama, Kamioka, Gifu in Japan bevindt. In tegenstelling tot beide LIGO-detectoren is het voorzien van cryogeen gekoelde saffierspiegels om de gevoeligheid bij lage frequenties (onder 100 Hz) te verbeteren. De eerste waarnemingsrun zal naar verwachting eind 2019 zijn, waar het samen met LIGO en Virgo op jacht gaat naar zwaartekrachtgolven.",
+      "image-credit": "Credit: Christopher Berry. "
+    },
+    "translations": {
+      "heading": "Vertalingen",
+      "paragraph1": "We willen graag onze erkenning delen voor onze groep vrijwillige vertalers en iedereen bedanken voor hun werk."
+    }
+  },
+  "contact": {
+    "page-heading": "Contact",
+    "contact-ligo": {
+      "heading": "Contact de LIGO - Virgo Collaboration (LVC)",
+      "text": "Voor vragen, betreft zwaartekrachtgolven en sites, neem contact op met LIGO op een van de onderstaande links.",
+      "email-ligo-button": "E-mail LIGO",
+      "contact-ligo-button": "Contact LIGO",
+      "contact-virgo-button": "Contact Virgo",
+      "contact-kagra-button": "Contact KAGRA",
+      "image-credit": "Credit: Caltech/MIT/LIGO Laboratorium. "
+    },
+    "contact-university": {
+      "heading": "Contact de Institutie",
+      "text": "Neem voor vragen over de Gravitational Wave Group van de Universiteit van Birmingham contact op met de groep.",
+      "contact-university-button": "Contact de Institutie",
+      "image-credit": "Credit: University of Birmingham."
+    },
+    "contact-developers": {
+      "heading": "Contact de Developers",
+      "text": "Vragen over de app? Een bug gevonden? Neem contact op met een van onze developers."
+    }
+  },
+  "alert-detail": {
+    "not-applicable": "N.V.T",
+    "most-likely-origin": "Meest Waarschijnlijke Oorsprong",
+    "no-skymap": "Geen Skymap",
+    "burst-source-text": "Deze evenementkandidaat is gevonden door de ongemodelleerde Flits-zoekopdracht. Terwijl de binaire zoekactie zoekt naar zwaartekrachtsgolven die overeenkomen met berekende signalen, is de Flits-zoekactie flexibeler, waardoor een reeks verschillende signalen kan worden gevonden, waaronder die van supernova's, magnetische uitbarstingen en kosmische reeksen, evenals mogelijk voorheen onbekende bronnen. Er zijn dan ook geen kansen toegekend aan het brontype.",
+    "alert-status": {
+      "alert-candidate": "Waarneming Kandidaat",
+      "alert-retracted": "Waarneming Ingetrokken"
+    },
+    "section-heading": {
+      "main-section": "Belangrijke Evenement Informatie",
+      "source-origin-probability-section": "Bron Oorsprong Waarschijnlijkheid",
+      "burst-candidate": "Flits Kandidaat",
+      "other-information-section": "Andere Informatie"
+    },
+    "main-labels": {
+      "date": "Datum",
+      "duration": "Duratie (s)",
+      "mean-distance": "Gemiddelde Afstand (Mpc)",
+      "distance-range": "Afstandsbereik (Mpc)",
+      "far": "Vals Alarm Ratio",
+      "most-likely-origin": "Meest Waarschijnlijke Oorsprong"
+    },
+    "source-labels": {
+    },
+    "other-labels": {
+      "graceid-label": "GraceDB ID",
+      "event-type": "Evenement Type",
+      "event-circulars": "Evenement Circulaires ",
+      "role": "Rollen",
+      "instruments": "Instrumenten",
+      "last-updated": "Recent Bijgewerkt"
+    },
+    "false-alarm-rate": {
+      "age-of-universe": "1 per %FAR% keer de leeftijd van het heelal",
+      "age-of-earth": "1 per %FAR% keer de leeftijd van de aarde",
+      "years": "1 per %FAR% jaren",
+      "months": "1 per %FAR% maanden",
+      "per-year": "%FAR% per jaar",
+      "thousand": "%FAR% honderdduizend",
+      "million": "%FAR% miljoen",
+      "billion": "%FAR% biljoen",
+      "trillion": "%FAR% triljoen",
+      "quadrillion": "%FAR% quadriljoen",
+      "quintillion": "%FAR% quintiljoen"
+    },
+    "tooltips": {
+      "graceid": "Een identificatie die uniek is uitgegeven door GraceDB. Een GraceDB-ID bestaat uit drie delen. Prefix: S voor normale kandidaten en MS of TS voor mock- of testgebeurtenissen. \nDe S staat voor super event. \nDatum: de zescijferige UTC-datum van het evenement, bestaande uit een tweecijferig jaar, maand en dag. Achtervoegsel: Een alfabetische tekenreeks in kleine letters die automatisch wordt verhoogd wanneer een kandidaat op een bepaalde datum wordt toegevoegd aan GraceDB (a, b, ..., z, aa, ab, ... az, aaa, enz.). ",
+      "pbbh": "Binair zwart gat. De procentuele kans dat de gebeurtenis het gevolg is van een botsing van twee zwarte gaten. Beide objecten moeten zwaarder zijn dan 5 zonsmassa's.",
+      "pbns": "Binaire neutronenster. De procentuele kans dat de gebeurtenis het gevolg is van de botsing van twee neutronensterren. Beide objecten moeten lichter zijn dan 3 zonsmassa's.",
+      "pnsbh": "Neutronenster zwart gat. De procentuele kans dat de gebeurtenis het gevolg is van een botsing van een neutronenster en een zwart gat.",
+      "mostlikely": "Het type systeem dat de detectie het meest waarschijnlijk heeft veroorzaakt, op basis van de bron met de grootste waarschijnlijkheid.",
+      "pterrestrial": "De procentuele kans dat de gebeurtenis wordt veroorzaakt door een aardse geluidsbron, b.v. aardbevingen, storingen enz.",
+      "retracted": "Is de waarneming teruggetrokken?",
+      "role": "De staat waarin het detectornetwerk zich bevond toen de gebeurtenis werd waargenomen. Dit is meestal ofwel 'observatie' voor wanneer de detectoren observeren of een 'test' wanneer het waarnemingssysteem wordt getest.",
+      "skymapurl": "Adres van de corresponderende Skymap.",
+      "t_observed": "Tijd en datum van de geobserveerde gebeurtenis.",
+      "t_received": "Tijd en datum van ontvangen waarneming.",
+      "t_updated": "Tijd en datum dat de waarnemingen voor het laatst zijn bijgewerkt. ",
+      "eventtype": "De classificatie van het evenement. Dit is ofwel 'CBC (Compact Binary Coalescence)', b.v. binaire botsingen met zwarte gaten, of 'flits', b.v. supernova-explosies",
+      "instruments": "De interferometers die de gebeurtenis hebben gedetecteerd, ofwel LIGO Hanford, LIGO Livingston, Virgo, KAGRA.",
+      "eventCirculars": "Een link naar de lijst met mededelingen die over het evenement zijn vrijgegeven. Opent een externe site.",
+      "hasremnant": "De procentuele kans dat er materie van neutronensterren uit het systeem werd uitgestoten. Gezien de gebeurtenis astrofysisch was en ten minste één object een neutronenster was. ",
+      "duration": "De duur van de burst in seconden. Als deze gebeurtenis niet werd veroorzaakt door een flits, wordt de duur weergegeven als N/A (n.v.t).",
+      "distmean": "De gemiddelde afstand van de gebeurtenis tot de aarde, gemeten in Megaparsecs. \n1 Megaparsec = 3,262 miljoen lichtjaar = 30,9 miljard miljard km.",
+      "fluence": "De zwaartekrachtsgolf invloed, gemeten in: \nerg cm<sup>-2</sup>.",
+      "FAR": "De hoeveelheid tijd die verwacht wordt voor een gebeurtenis als deze die niet van astrofysische oorsprong is. Het percentage valse alarmen (FAR) geeft het belang van de gebeurtenis aan. Hoe meer tijd tussen FAR gebeurtenissen, hoe groter de kans dat deze gebeurtenis echt is.",
+      "massgap": "De procentuele kans dat ten minste één van de objecten een massa had tussen 3 en 5 zonsmassa's",
+      "distmstd": "Het bereik van mogelijke afstanden zoals gemeten vanaf de aarde. Dit zijn de gemiddelde afstand, plus en min de standaardafwijking van de waarneming gemeten in Megaparsecs. 1 Megaparsec = 3,262 miljoen lichtjaar = 32,6 miljard miljard miljard km.",
+      "networkstatus": "De huidige status van de zwaartekrachtgolfdetectoren. Rood geeft aan dat de detector offline is, oranje geeft aan dat de detector wordt gekalibreerd of dat er problemen worden opgelost, groen betekent dat de detector aan het observeren is. Het getal geeft de uren en minuten aan dat de detector in deze staat is geweest."
+    }
+  },
+  "settings": {
+    "header": "Instellingen",
+    "save-button": "Opslaan",
+    "language-section": {
+      "header": "Taal",
+      "system-language": "Systeem Taal",
+      "available-languages": "Beschikbare Talen",
+      "default": "Standaardinstelling"
+    },
+    "notifications-section": {
+      "header": "Notificaties",
+      "footer": "Voorkeursinstellingen Notificaties.",
+      "rows": {
+        "all-notifications-row": "Alle Notificaties",
+        "general-notifications-row": "Nieuws Waarnemingen",
+        "paper-notifications-row": "Persberichten"
+      }
+    },
+    "alert-type-section": {
+      "header": "Meldingen Waarnemingen",
+      "footer": "Voorkeursinstellingen Notificaties.",
+      "rows": {
+        "preliminary-alerts-row": "Voorlopige Waarnemingen",
+        "initial-alerts-row": "Eerste Waarnemingen",
+        "update-alerts-row": "Update Waarnemingen",
+        "old-event-alerts-row": "Oude Gebeurtenis Waarnemingen"
+      }
+    },
+    "event-type-section": {
+      "header": "Wetenschappelijke Notificaties",
+      "footer": "Voorkeursinstellingen kandidaat-evenementen",
+      "rows": {
+        "bbh": "Binaire Zwarte Gat",
+        "nsbh": "Neutronenster Zwart Gat",
+        "nsns": "Neutronenster Neutronenster",
+        "massgap": "MassGap",
+        "burst": "Flits"
+      }
+    },
+    "preliminary-alerts": {
+      "header": "Voorlopige Waarnemingen",
+      "show-preliminary-alerts-row": "Toon Voorlopige Waarnemingen",
+      "footer": "Standaard zijn alleen notificaties te zien voor gebeurtenissen die zijn geverifieerd door mensen. Deze instelling inschakelen zal Chirp ook notificaties laten zien voor voorlopige waarschuwingen, deze zijn machine-gegenereerd."
+    },
+    "reset-section": {
+      "footer": "Hiermee worden alle instellingen teruggezet naar de standaardwaarden.",
+      "button": "Terugzetten naar Standaardinstellingen"
+    }
+  }
 }
