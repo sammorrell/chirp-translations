@@ -211,6 +211,7 @@
             "header" : "Science Notifications",
             "footer" : "This allows you to select which types of candidate events that you'd like to receive for. ",
             "rows" : {
+                "bns" : "Binary Neutron Star",
                 "bbh" : "Binary Black Hole",
                 "nsbh" : "Neutron Star Black Hole",
                 "nsns" : "Neutron Star Neutron Star",
