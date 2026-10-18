@@ -48,7 +48,15 @@
         "graceid-column-heading" : "GraceDB ID",
         "type-column-heading" : "Likely Type",
         "date-column-heading" : "Date (UTC)",
-        "key-heading" : "Key"
+        "key-heading" : "Key",
+        "filter" : {
+            "heading" : "Filter",
+            "types-heading" : "Show alert types",
+            "options-heading" : "Options",
+            "show-retracted" : "Show Retracted Alerts",
+            "significant-only" : "Show Only Significant Events",
+            "significant-help" : "Significant events have a false alarm rate of less than %FAR%. Untick to show all events."
+        }
     },
     "about" : {
         "header" : "About",
