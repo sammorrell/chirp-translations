@@ -118,6 +118,10 @@
         "not-applicable" : "N/A",
         "most-likely-origin" : "Most Likely Origin",
         "no-skymap" : "No Skymap",
+        "skymap-unavailable" : {
+            "title" : "Skymap currently unavailable",
+            "detail" : "The sky localisation for this event will appear here once it has been published and processed by Chirp."
+        },
         "burst-source-text" : "This event candidate was found by the unmodelled Burst search. While the Binary search looks for gravitational waves which match calculated signals, the Burst search is more flexible, allowing it to find a range of different signals including those from supernovae, magnetar bursts, and cosmic strings, as well as potentially previously unknown sources. Accordingly, there are no probabilities assigned for the source type.",
         "alert-status" : {
             "alert-candidate" : "Alert Candidate",
