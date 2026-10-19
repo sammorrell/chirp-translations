@@ -125,7 +125,8 @@
         "burst-source-text" : "This event candidate was found by the unmodelled Burst search. While the Binary search looks for gravitational waves which match calculated signals, the Burst search is more flexible, allowing it to find a range of different signals including those from supernovae, magnetar bursts, and cosmic strings, as well as potentially previously unknown sources. Accordingly, there are no probabilities assigned for the source type.",
         "alert-status" : {
             "alert-candidate" : "Alert Candidate",
-            "alert-retracted" : "Alert Retracted"
+            "alert-retracted" : "Alert Retracted",
+            "alert-published" : "Alert Published"
         },
         "section-heading" : {
             "main-section" : "Important Event Information",
@@ -150,7 +151,8 @@
             "event-circulars" : "Event Circulars",
             "role" : "Role",
             "instruments" : "Instruments",
-            "last-updated" : "Last Updated"
+            "last-updated" : "Last Updated",
+            "published-article" : "Published Article"
         },
         "false-alarm-rate" : {
             "age-of-universe" : "1 per %FAR% times the age of the Universe",
