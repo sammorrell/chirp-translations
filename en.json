@@ -248,5 +248,10 @@
             "open-settings" : "Open Settings",
             "cancel" : "Not Now"
         }
+    },
+    "notification-alert" : {
+        "view-alert" : "View Alert Candidate",
+        "ignore" : "Ignore",
+        "ok" : "OK"
     }
 }
