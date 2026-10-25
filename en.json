@@ -241,6 +241,12 @@
         "reset-section" : {
             "footer" : "This will reset all settings to their default values. ",
             "button" : "Reset to Default"
+        },
+        "notifications-permission" : {
+            "title" : "Notifications Are Turned Off",
+            "message" : "To receive alerts, allow notifications for Chirp in your device settings.",
+            "open-settings" : "Open Settings",
+            "cancel" : "Not Now"
         }
     }
 }
