@@ -251,6 +251,7 @@
     },
     "notification-alert" : {
         "view-alert" : "View Alert Candidate",
+        "read-article" : "Read Article",
         "ignore" : "Ignore",
         "ok" : "OK"
     }
