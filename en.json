@@ -95,23 +95,34 @@
     "contact" : {
         "page-heading" : "Contact",
         "contact-ligo" : {
-            "heading" : "Contact the LIGO - Virgo Collaboration (LVC)", 
-            "text" : "For questions regarding gravitational waves and the sites contact LIGO at one of the links below. ",
+            "heading" : "Contact the LIGO - Virgo Collaboration (LVC)",
+            "text" : "For questions regarding gravitational waves and the observatories, contact LIGO at one of the links below.",
             "email-ligo-button" : "Email LIGO",
             "contact-ligo-button" : "Contact LIGO",
             "contact-virgo-button" : "Contact Virgo",
             "contact-kagra-button" : "Contact KAGRA",
-            "image-credit" : "Credit: Caltech/MIT/LIGO Laboratory. "
+            "image-credit" : "Credit: Matt Heintze / Caltech / MIT / LIGO Lab."
+        },
+        "contact-exeter" : {
+            "heading" : "Contact the University of Exeter Astrophysics Group",
+            "text" : "Chirp is hosted and maintained by the Astrophysics Group at the University of Exeter. For enquiries about the group, our outreach, and our research, please contact us.",
+            "contact-exeter-button" : "Contact the Group",
+            "image-credit" : "Credit: University of Exeter / Danny Cooke."
         },
         "contact-university" : {
-            "heading" : "Contact the Institute", 
-            "text" : "For enquires about the gravitational wave group at the University of Birmingham please contact the group. ",
+            "heading" : "Contact the Institute for Gravitational Wave Astronomy",
+            "text" : "Chirp was originally hosted by the Institute for Gravitational Wave Astronomy at the University of Birmingham. For enquiries about the institute, please contact us.",
             "contact-university-button" : "Contact the Institute",
             "image-credit" : "Credit: University of Birmingham."
         },
         "contact-developers" : {
             "heading" : "Contact the Developers",
-            "text" : "Got a question about the app? Found a bug? Contact one of the developers. "
+            "text" : "Got a question about the app? Found a bug? Contact one of the developers below.",
+            "maintainer-intro" : "You can contact the current maintainer (Dr Sam Morrell) using the buttons below.",
+            "contributors-intro" : "The following are past and present contributors to Chirp.",
+            "role-maintainer" : "Project Maintainer",
+            "website" : "Website",
+            "email" : "Email"
         }
     },
     "alert-detail" : {
