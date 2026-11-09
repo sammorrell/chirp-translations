@@ -212,7 +212,10 @@
             "header" : "Language",
             "system-language": "System Language",
             "available-languages": "Available Languages",
-            "default": "Default"
+            "default": "Default",
+            "contribute-heading": "Contribute",
+            "contribute-row": "Contribute Translation",
+            "contribute-footer": "We want Chirp to be as accessible to as many people as possible. If your language is incorrect, incomplete, or missing, please consider contributing a translation via GitLocalise."
         },
         "notifications-section" : {
             "header" : "Notifications",
@@ -259,7 +262,8 @@
             "message" : "To receive alerts, allow notifications for Chirp in your device settings.",
             "open-settings" : "Open Settings",
             "cancel" : "Not Now"
-        }
+        },
+        "privacy-policy-row": "Privacy Policy"
     },
     "notification-alert" : {
         "view-alert" : "View Alert Candidate",
